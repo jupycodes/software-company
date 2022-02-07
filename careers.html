@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>roboSolutions Careers</title>
+</head>
+<body>
+    <h1>Register</h1>
+    <form>
+        <label>Full Name </label>
+        <input type="text" name="name" placeholder="Full Name" pattern=".{8,}" required><br><br>
+        <label>Experience </label>
+        <input type="number" name="experience" placeholder="Experience" required><br><br>
+        <label for="vacancy">Vacancy </label>
+        <select name="vacancy" id="vacancy" required>
+            <option value="Android Developer">Android Developer</option>
+            <option value="Full Stack Developer">Full Stack Developer</option>
+            <option value="Consultant">Consultant</option>
+            <option value="Research and Development">Research and Development</option>
+        </select><br><br>
+        <label for="job type">Job Type </label>
+        <select name="job type" id="job type" required>
+            <option value="Full-time">Full-time</option>
+            <option value="Part-time">Part-time</option>
+            <option value="Freelancer">Freelancer</option>
+            <option value="Internship">Internship</option>
+        </select><br><br>
+        <input type="submit" value="Apply">
+    </form>
+</body>
+</html>
